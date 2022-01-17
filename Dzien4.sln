@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02KlasyCzesciowe", "P02Kla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03ZadanieKalkulator", "P03ZadanieKalkulator\P03ZadanieKalkulator.csproj", "{34FAC1C8-C68B-4174-8C40-25381360CD8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04ZadaniePogoda", "P04ZadaniePogoda\P04ZadaniePogoda.csproj", "{3F4A7884-BD99-4584-9DFE-E17CB472A108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{34FAC1C8-C68B-4174-8C40-25381360CD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34FAC1C8-C68B-4174-8C40-25381360CD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34FAC1C8-C68B-4174-8C40-25381360CD8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4A7884-BD99-4584-9DFE-E17CB472A108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4A7884-BD99-4584-9DFE-E17CB472A108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4A7884-BD99-4584-9DFE-E17CB472A108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4A7884-BD99-4584-9DFE-E17CB472A108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

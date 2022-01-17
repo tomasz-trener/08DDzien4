@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 namespace P03ZadanieKalkulator
 {
+
+    //https://github.com/tomasz-trener/08DDzien4
     public partial class Form1 : Form
     {
         public Form1()

@@ -1,0 +1,9 @@
+﻿
+Część 1 zadania 
+Program pozwala na wczytanie nazwy miasta w tekstboxie 
+po kliknieciu przycisku wczytaj , w  labelce pojawia się 
+aktualna tmeperatura dla danego miasta, pobrana z google. 
+(warto skorzystac z klasy ManagerPogody z dnia 3)
+
+
+
