@@ -1,4 +1,5 @@
-﻿using System;
+﻿using P04ZadaniePogoda.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,7 +19,7 @@ namespace P04ZadaniePogoda
             InitializeComponent();
             managerMiast = new ManagerMiast();
             OdswiezMiasta();
-           
+            pcObrazek.Image = null;
         }
 
         private void OdswiezMiasta()
@@ -50,7 +51,19 @@ namespace P04ZadaniePogoda
 
             managerMiast.DodajMiasto(txtNazwaMiasta.Text);
             OdswiezMiasta();
+            UstawObrazek(tmp);
         }
+
+        private void UstawObrazek(double tmp)
+        {
+            if (tmp < 0)
+                pcObrazek.Image = Resources.snow;
+            else if (tmp < 10)
+                pcObrazek.Image = Resources.cloud;
+            else
+                pcObrazek.Image = Resources.sun;
+        }
+
 
         private void cbMiasta_SelectedIndexChanged(object sender, EventArgs e)
         {

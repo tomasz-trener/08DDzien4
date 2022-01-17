@@ -39,6 +39,8 @@ namespace P04ZadaniePogoda
             this.rbCelsjusz = new System.Windows.Forms.RadioButton();
             this.rbFahrenheit = new System.Windows.Forms.RadioButton();
             this.rbKelvin = new System.Windows.Forms.RadioButton();
+            this.pcObrazek = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pcObrazek)).BeginInit();
             this.SuspendLayout();
             // 
             // txtNazwaMiasta
@@ -135,11 +137,22 @@ namespace P04ZadaniePogoda
             this.rbKelvin.Text = "Kelvin";
             this.rbKelvin.UseVisualStyleBackColor = true;
             // 
+            // pcObrazek
+            // 
+            this.pcObrazek.Image = global::P04ZadaniePogoda.Properties.Resources.sun;
+            this.pcObrazek.Location = new System.Drawing.Point(490, 40);
+            this.pcObrazek.Name = "pcObrazek";
+            this.pcObrazek.Size = new System.Drawing.Size(90, 78);
+            this.pcObrazek.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcObrazek.TabIndex = 10;
+            this.pcObrazek.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(497, 130);
+            this.ClientSize = new System.Drawing.Size(594, 130);
+            this.Controls.Add(this.pcObrazek);
             this.Controls.Add(this.rbKelvin);
             this.Controls.Add(this.rbFahrenheit);
             this.Controls.Add(this.rbCelsjusz);
@@ -152,6 +165,7 @@ namespace P04ZadaniePogoda
             this.Controls.Add(this.txtNazwaMiasta);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pcObrazek)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,6 +183,7 @@ namespace P04ZadaniePogoda
         private System.Windows.Forms.RadioButton rbCelsjusz;
         private System.Windows.Forms.RadioButton rbFahrenheit;
         private System.Windows.Forms.RadioButton rbKelvin;
+        private System.Windows.Forms.PictureBox pcObrazek;
     }
 }
 
