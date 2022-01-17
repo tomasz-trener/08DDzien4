@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03ZadanieKalkulator", "P03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04ZadaniePogoda", "P04ZadaniePogoda\P04ZadaniePogoda.csproj", "{3F4A7884-BD99-4584-9DFE-E17CB472A108}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05ZadanieZawodnicy", "P05ZadanieZawodnicy\P05ZadanieZawodnicy.csproj", "{9FB9701F-2FAE-4A4C-BB09-956718C7B36A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3F4A7884-BD99-4584-9DFE-E17CB472A108}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F4A7884-BD99-4584-9DFE-E17CB472A108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F4A7884-BD99-4584-9DFE-E17CB472A108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB9701F-2FAE-4A4C-BB09-956718C7B36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB9701F-2FAE-4A4C-BB09-956718C7B36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB9701F-2FAE-4A4C-BB09-956718C7B36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB9701F-2FAE-4A4C-BB09-956718C7B36A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
