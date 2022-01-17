@@ -2,7 +2,7 @@
 Część 1 zadania 
 Program pozwala na wczytanie nazwy miasta w tekstboxie 
 po kliknieciu przycisku wczytaj , w  labelce pojawia się 
-aktualna tmeperatura dla danego miasta, pobrana z google. 
+aktualna tmeperatura dla  danego miasta, pobrana z google. 
 (warto skorzystac z klasy ManagerPogody z dnia 3)
 
 
@@ -11,3 +11,8 @@ Rozbuj program tak aby za kazdym razem kiedy podajemy nazwe miasta
 to nazwa ta zostaje zapisana do pliku tekstowego, któy będzie zawierał unikalne 
 nazwy miast, któe ktoś wcześniej już podał 
 
+
+rozbuduj program tak aby wyświetał ikonkę 
+- snieg gdy temp w C ponizej 0 
+- chmurka gdy  temp  C od 0 do 10
+- slonce gdy temp powyzej 10 
