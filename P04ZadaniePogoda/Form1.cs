@@ -26,8 +26,9 @@ namespace P04ZadaniePogoda
             cbMiasta.Items.Clear();
              
             var miasta = managerMiast.PodajMiasta();
-            foreach (var m in miasta)
-                cbMiasta.Items.Add(m);
+            if(miasta != null)
+                foreach (var m in miasta)
+                    cbMiasta.Items.Add(m);
         }
  
         private void btnWczytaj_Click(object sender, EventArgs e)

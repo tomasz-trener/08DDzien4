@@ -33,6 +33,8 @@ namespace P04ZadaniePogoda
 
         public string[] PodajMiasta()
         {
+            if (!File.Exists(nazwaPliku))
+                return null;
             return File.ReadAllLines(nazwaPliku);
         }
     }
