@@ -15,13 +15,13 @@ namespace P04ZadaniePogoda
         {
             if (!File.Exists(nazwaPliku))
             {
-                File.WriteAllText(nazwaPliku, miasto);
+                File.WriteAllText(nazwaPliku, miasto + Environment.NewLine);
                 return;
             }
 
             // juz plik istnieje 
             if (!CzyMiastoJuzJestWPliku(miasto))
-                File.AppendAllLines(nazwaPliku, new string[] { miasto });
+                File.AppendAllLines(nazwaPliku, new string[] {  miasto });
             
         }
 
@@ -29,6 +29,11 @@ namespace P04ZadaniePogoda
         {
             string[] miasta= File.ReadAllLines(nazwaPliku);
             return miasta.Contains(miasto);
+        }
+
+        public string[] PodajMiasta()
+        {
+            return File.ReadAllLines(nazwaPliku);
         }
     }
 }
