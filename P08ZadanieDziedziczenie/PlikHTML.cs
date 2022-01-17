@@ -15,8 +15,8 @@ namespace P08ZadanieDziedziczenie
         public override void Zapisz()
         {
             Tresc = string.Format(szablon, Tresc);
-            string rozszerzenie = ".html";
-            File.WriteAllText(Sciezka + rozszerzenie, Tresc);
+            rozszerzenie = ".html";
+            base.Zapisz();
         }
     }
 }

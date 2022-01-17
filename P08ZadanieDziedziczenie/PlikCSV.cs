@@ -12,9 +12,8 @@ namespace P08ZadanieDziedziczenie
         public override void Zapisz()
         {
             Tresc = Tresc.Replace(" ", ";");
-
-            string rozszerzenie = ".csv";
-            File.WriteAllText(Sciezka + rozszerzenie, Tresc);
+            rozszerzenie = ".csv";
+            base.Zapisz();
         }
     }
 }

@@ -13,11 +13,12 @@ namespace P08ZadanieDziedziczenie
         public int Rozmiar;
         public string Autor;
         public string Sciezka;
+        public string rozszerzenie;
 
         // virtual - pozwalam na nadpisywanie
         public virtual void Zapisz()
         {
-
+            File.WriteAllText(Sciezka + rozszerzenie, Tresc);
         }
 
     }

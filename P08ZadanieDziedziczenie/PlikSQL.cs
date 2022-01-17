@@ -12,9 +12,8 @@ namespace P08ZadanieDziedziczenie
         public override void Zapisz()
         {
             Tresc = "SELECT " + Tresc + " FROM DANE";
-
-            string rozszerzenie = ".sql";
-            File.WriteAllText(Sciezka + rozszerzenie, Tresc);
+            rozszerzenie = ".sql";
+            base.Zapisz();
         }
     }
 }
