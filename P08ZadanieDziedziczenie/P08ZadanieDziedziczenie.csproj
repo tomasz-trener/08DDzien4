@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Plik.cs" />
+    <Compile Include="PlikCSV.cs" />
+    <Compile Include="PlikHTML.cs" />
+    <Compile Include="PlikSQL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
