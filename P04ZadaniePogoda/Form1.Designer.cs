@@ -64,7 +64,7 @@ namespace P04ZadaniePogoda
             // lblWynik
             // 
             this.lblWynik.AutoSize = true;
-            this.lblWynik.Location = new System.Drawing.Point(142, 111);
+            this.lblWynik.Location = new System.Drawing.Point(142, 102);
             this.lblWynik.Name = "lblWynik";
             this.lblWynik.Size = new System.Drawing.Size(35, 13);
             this.lblWynik.TabIndex = 3;
@@ -74,7 +74,7 @@ namespace P04ZadaniePogoda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(198, 152);
+            this.ClientSize = new System.Drawing.Size(198, 141);
             this.Controls.Add(this.lblWynik);
             this.Controls.Add(this.btnWczytaj);
             this.Controls.Add(this.label1);

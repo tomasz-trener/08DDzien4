@@ -16,17 +16,8 @@ namespace P04ZadaniePogoda
         {
             InitializeComponent();
 
-            //if (checkBox1.Checked)
-            //{
-
-            //}
         }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
+ 
         private void btnWczytaj_Click(object sender, EventArgs e)
         {
             ManagerPogody mp = new ManagerPogody(Jednostka.Celsjusz);

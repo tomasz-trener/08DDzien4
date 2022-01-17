@@ -7,3 +7,7 @@ aktualna tmeperatura dla danego miasta, pobrana z google.
 
 
 
+Rozbuj program tak aby za kazdym razem kiedy podajemy nazwe miasta
+to nazwa ta zostaje zapisana do pliku tekstowego, któy będzie zawierał unikalne 
+nazwy miast, któe ktoś wcześniej już podał 
+
