@@ -24,7 +24,7 @@ namespace P04ZadaniePogoda
         private void OdswiezMiasta()
         {
             cbMiasta.Items.Clear();
-            
+             
             var miasta = managerMiast.PodajMiasta();
             foreach (var m in miasta)
                 cbMiasta.Items.Add(m);
