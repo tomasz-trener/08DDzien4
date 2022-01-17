@@ -16,8 +16,9 @@ namespace P04ZadaniePogoda
         public Form1()
         {
             InitializeComponent();
-            OdswiezMiasta();
             managerMiast = new ManagerMiast();
+            OdswiezMiasta();
+           
         }
 
         private void OdswiezMiasta()
@@ -31,7 +32,17 @@ namespace P04ZadaniePogoda
  
         private void btnWczytaj_Click(object sender, EventArgs e)
         {
-            ManagerPogody mp = new ManagerPogody(Jednostka.Celsjusz);
+            Jednostka jd;
+            if (rbCelsjusz.Checked)
+                jd = Jednostka.Celsjusz;
+            else if (rbFahrenheit.Checked)
+                jd = Jednostka.Fahrenheit;
+            else if (rbKelvin.Checked)
+                jd = Jednostka.Kelvin;
+            else
+                throw new Exception("nieznana jednostka");
+
+            ManagerPogody mp = new ManagerPogody(jd);
             double tmp = mp.PodajTemperature(txtNazwaMiasta.Text);
 
             lblWynik.Text = tmp.ToString();

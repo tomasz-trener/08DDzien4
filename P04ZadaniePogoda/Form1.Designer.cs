@@ -35,6 +35,10 @@ namespace P04ZadaniePogoda
             this.lblWynik = new System.Windows.Forms.Label();
             this.cbMiasta = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.rbCelsjusz = new System.Windows.Forms.RadioButton();
+            this.rbFahrenheit = new System.Windows.Forms.RadioButton();
+            this.rbKelvin = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // txtNazwaMiasta
@@ -90,11 +94,56 @@ namespace P04ZadaniePogoda
             this.label2.TabIndex = 5;
             this.label2.Text = "lub wybierz z historii zapisów";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(376, 13);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(94, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Wybierz jednostke";
+            // 
+            // rbCelsjusz
+            // 
+            this.rbCelsjusz.AutoSize = true;
+            this.rbCelsjusz.Checked = true;
+            this.rbCelsjusz.Location = new System.Drawing.Point(379, 40);
+            this.rbCelsjusz.Name = "rbCelsjusz";
+            this.rbCelsjusz.Size = new System.Drawing.Size(63, 17);
+            this.rbCelsjusz.TabIndex = 7;
+            this.rbCelsjusz.TabStop = true;
+            this.rbCelsjusz.Text = "Celsjusz";
+            this.rbCelsjusz.UseVisualStyleBackColor = true;
+            // 
+            // rbFahrenheit
+            // 
+            this.rbFahrenheit.AutoSize = true;
+            this.rbFahrenheit.Location = new System.Drawing.Point(379, 63);
+            this.rbFahrenheit.Name = "rbFahrenheit";
+            this.rbFahrenheit.Size = new System.Drawing.Size(75, 17);
+            this.rbFahrenheit.TabIndex = 8;
+            this.rbFahrenheit.Text = "Fahrenheit";
+            this.rbFahrenheit.UseVisualStyleBackColor = true;
+            // 
+            // rbKelvin
+            // 
+            this.rbKelvin.AutoSize = true;
+            this.rbKelvin.Location = new System.Drawing.Point(379, 86);
+            this.rbKelvin.Name = "rbKelvin";
+            this.rbKelvin.Size = new System.Drawing.Size(54, 17);
+            this.rbKelvin.TabIndex = 9;
+            this.rbKelvin.Text = "Kelvin";
+            this.rbKelvin.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(494, 141);
+            this.ClientSize = new System.Drawing.Size(497, 130);
+            this.Controls.Add(this.rbKelvin);
+            this.Controls.Add(this.rbFahrenheit);
+            this.Controls.Add(this.rbCelsjusz);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbMiasta);
             this.Controls.Add(this.lblWynik);
@@ -116,6 +165,10 @@ namespace P04ZadaniePogoda
         private System.Windows.Forms.Label lblWynik;
         private System.Windows.Forms.ComboBox cbMiasta;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RadioButton rbCelsjusz;
+        private System.Windows.Forms.RadioButton rbFahrenheit;
+        private System.Windows.Forms.RadioButton rbKelvin;
     }
 }
 
