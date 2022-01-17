@@ -75,7 +75,7 @@ namespace P01AplikacjaOkienkowa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(615, 375);
             this.Controls.Add(this.btnWyswietlTekst);
             this.Controls.Add(this.lblKomunikat);
             this.Controls.Add(this.txtKomuniakt);

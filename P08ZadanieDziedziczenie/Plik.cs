@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 
 namespace P08ZadanieDziedziczenie
 {
-    class Plik
+
+    // jaka jest rola klasy plik  ?
+
+
+    abstract class Plik
     {
         public string Tresc;
         public int Rozmiar;
