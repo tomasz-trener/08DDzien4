@@ -17,12 +17,13 @@ namespace P04ZadaniePogoda
         {
             InitializeComponent();
             OdswiezMiasta();
+            managerMiast = new ManagerMiast();
         }
 
         private void OdswiezMiasta()
         {
             cbMiasta.Items.Clear();
-            managerMiast = new ManagerMiast();
+            
             var miasta = managerMiast.PodajMiasta();
             foreach (var m in miasta)
                 cbMiasta.Items.Add(m);
@@ -35,7 +36,6 @@ namespace P04ZadaniePogoda
 
             lblWynik.Text = tmp.ToString();
 
-            managerMiast = new ManagerMiast();
             managerMiast.DodajMiasto(txtNazwaMiasta.Text);
             OdswiezMiasta();
         }
