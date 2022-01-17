@@ -31,7 +31,7 @@ namespace P05ZadanieZawodnicy
 
             // zamiast tego skorzystam z mechanizmu data binding 
             lbDane.DisplayMember = "Nazwisko";
-            lbDane.DataSource = zawodnicy;
+            lbDane.DataSource = zawodnicy;// rzutowanie niejawne
          
         }
 

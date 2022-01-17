@@ -19,7 +19,7 @@ namespace P05ZadanieZawodnicy
 
         public Zawodnik()
         {
-
+            //13:30 
         }
 
         public Zawodnik(string imie, string nazwisko)
